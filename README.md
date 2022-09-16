@@ -73,15 +73,15 @@ After compiling files (for Ex.: `g++ runner.cpp crossword.cpp -o crossword`) and
 
 - For simple.txt (`.\crossword 10 CrosswordBoards\simple.txt Words\Top3000EnglishWords.txt`) you will be able to see:  
   
-![](../Images/simple-crossword.jpg)  
+![](Images/simple-crossword.jpg)  
 
 - For medium.txt (`.\crossword 10 CrosswordBoards\medium.txt Words\Top3000EnglishWords.txt`) you will be able to see:  
   
-![](../Images/medium-crossword.jpg)  
+![](Images/medium-crossword.jpg)  
 
 - For medium.txt (`.\crossword 20 CrosswordBoards\complex.txt Words\Top3000EnglishWords.txt`) you will be able to see:  
   
-![](../Images/complex-crossword.jpg)
+![](Images/complex-crossword.jpg)
 
 ## Glossary:
 ### ***Variable***
