@@ -61,11 +61,11 @@ class crossword{
     bool is_complete();
     void VARIABLE_tokenize();
     void setVARIABLES_domains();
-    VARIABLES_ITERATORS neighbors(VARIABLE&);
     bool revise(VARIABLE&, VARIABLE&);
     bool consistent_for_assigned_vars();
     VARIABLE &select_unassigned_VARIABLE();
     STRINGS order_domain_values(VARIABLE &);
+    VARIABLES_ITERATORS neighbors(VARIABLE&);
     void extract_VARIABLES(STRINGS, DIRECTION);
     size_t eliminated_values_number(VARIABLE &var);
     inline void update(size_t, size_t, DIRECTION, size_t);
