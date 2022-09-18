@@ -79,7 +79,7 @@ After compiling files (for Ex.: `g++ runner.cpp crossword.cpp -o crossword`) and
   
 ![](Images/medium-crossword.jpg)  
 
-- For medium.txt (`.\crossword 20 CrosswordBoards\complex.txt Words\Top3000EnglishWords.txt`) you will be able to see:  
+- For complex.txt (`.\crossword 20 CrosswordBoards\complex.txt Words\Top3000EnglishWords.txt`) you will be able to see:  
   
 ![](Images/complex-crossword.jpg)
 
