@@ -8,7 +8,7 @@ using std::string;
 using std::vector;
 using std::to_string;
 #define DEBUG(x) (std::cout << #x << " = " << x << '\n')
-#define BETWEEN(L, x, R) ((x) >= (L) && (x) < R)
+#define BETWEEN(L, x, R) ((x) >= (L) && (x) < (R))
 #define abs(x) (int64_t(x) < 0? -int64_t(x) : (x)) 
 #define STRINGS vector<string>
 #define VARIABLES vector<VARIABLE>
