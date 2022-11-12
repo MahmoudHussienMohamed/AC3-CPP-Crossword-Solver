@@ -88,7 +88,7 @@ After compiling files (for Ex.: `g++ runner.cpp crossword.cpp -o crossword`) and
 can be defined as a symbol or placeholder to represent some value (such **`X`**, **`Y`**, *..etc*) and has a **domain** which is a set of possible values that a variable can hold.
 
 ### ***Arc*** 
-***Arc*** or ***edge*** can be defined as a connection among variables which descripe the realtion between two variables.
+***Arc*** or ***edge*** can be defined as a connection among variables which descripe the relation between two variables.
 
 ### ***Arc-Consistency*** 
 Variable `X` is **Arc-consistent** with variable `Y` only if all constraints {`Cᵢ`, `Cᵢ₊₁`,.., `Cⱼ`} involving `X` and `Y` are satisfied.
@@ -101,4 +101,4 @@ Variable `X` is **Node-consistent** only if it satisfies all constraints {`Cᵢ`
 can be defined as a relation that limits the values a variable may have. Constraints can be *unary* (or *node-consistency* descripes the limitations and values that a variable can have), *binary* (or *arc-consistency* descripes the realation between two variables) or more. Ex.: let `V₀` and `V₁` be variables and their domains are {**-2, -3, 3, 0,  6, 5**} and {**6, 11, 3, 12, 2, 5**} respectively. Let constraints `C₀` = "*variables must be greater than 2*" and `C₁` = "*`V₀` + `V₁` must be greater than or equal to 17*". According to *unary* constraint `C₀`: domain of `V₀` = {**3, 6, 5**} and `V₁` = {**6, 11, 3, 12, 5**} to achieve [Node-consistency](README.md/#node-consistency), and for *binary* constraint `C₁`: `V₀` = {**6, 5**} and `V₁` = {**11, 12**} to achieve [Arc-consistency](README.md/#arc-consistency).
 
 ### **CSP** 
-(***C***onstraint ***S***atisfaction ***P***roblem) is defined as a trible **{`X`, `D`, `C`}** Where **X** = {**X₁**, **X₂**,..., **Xₙ₋₁**, **Xₙ**} is a set of variables, **D** = {**D₁**, **D₂**,..., **Dₙ₋₁**, **Dₙ**} is a set of values dmains respective to variables and **C** = {**C₁**, **C₂**,..., **Cₘ₋₁**, **Cₘ**} is a set of constraints. Each variable `Xᵢ` has a domain of values `Dᵢ` and each constraint `Cᵢ` limits the domain of one variable or more. **CSP** can be solved only if every `Dᵢ` is not empty and `Xᵢ` satisfies all the constraints {`Cⱼ`, `Cⱼ₊₁`,.., `Cₖ`} where each constraint involving variable `Xᵢ`.
+(***C***onstraint ***S***atisfaction ***P***roblem) is defined as a triple **{`X`, `D`, `C`}** Where **X** = {**X₁**, **X₂**,..., **Xₙ₋₁**, **Xₙ**} is a set of variables, **D** = {**D₁**, **D₂**,..., **Dₙ₋₁**, **Dₙ**} is a set of values dmains respective to variables and **C** = {**C₁**, **C₂**,..., **Cₘ₋₁**, **Cₘ**} is a set of constraints. Each variable `Xᵢ` has a domain of values `Dᵢ` and each constraint `Cᵢ` limits the domain of one variable or more. **CSP** can be solved only if every `Dᵢ` is not empty and `Xᵢ` satisfies all the constraints {`Cⱼ`, `Cⱼ₊₁`,.., `Cₖ`} where each constraint involving variable `Xᵢ`.
